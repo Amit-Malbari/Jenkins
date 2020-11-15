@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Class1Suite" parallel="classes" group-by-instances="true" object-factory="objectFactory.ObjectFactory">
+  <test name="instances">
+  	<packages>
+  		<package name="loinFactory.*"/>
+  	</packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- <suite name="Class1Suite" parallel="instances"  object-factory="objectFactory.ObjectFactory" thread-count="2">
+  <test name="instances">
+  	<packages>
+  		<package name="loinFactory.*"/>
+  	</packages>
+  </test> Test
+</suite> Suite -->
